@@ -1,0 +1,38 @@
+{
+  "modPluginOrder_comment": "Add exception for mod: [plugins] below here if default plugin order is incorrect",
+  "modPluginOrder": {
+  },
+
+  "delinquent": {
+    "BSHeartland - Meshes.esp": ["BSAssets.esm", "BSHeartland.esm"],
+    "MilkModNEW Sanbox.esp": "MilkMod_MilkPumpsFancy.esp",
+    "Bathing in Skyrim - Bruma.esp": "Bathing in Skyrim - Main.esp",
+    "Devious Devices - Contraptions.esm": ["Devious Devices - Expansion.esm", "Devious Devices - Integration.esm", "Devious Devices - Assets.esm"],
+    "TAWOBA Remastered Leveled List.esp": "The Amazing World of Bikini Armors REMASTERED.esp",
+    "Pahe_AltStartLAL.esp": "paradise_halls_SLExtension.esp",
+    "Pahe_Dwarven_Devious_suits.esp": "paradise_halls_SLExtension.esp",
+	"Lux - TGCotN Winterhold V4 patch.esp": "TGCotN Winterhold.esp",
+	"Lux - JK COTN Morthal patch.esp": "COTN Morthal - JK's Skyrim Patch.esp",
+	"Lux - COTN JK's Skyrim Dawnstar patch.esp": "COTN Dawnstar - JK's Skyrim Patch.esp",
+	"Lux Orbis - TGCotN Winterhold patch.esp": ["TGCotN Winterhold.esp", "Lux Orbis - COTN Wintgerhold patch.esp"],
+	"Lux Orbis - TGC Winterhold V4 JK's Skyrim patch.esp": "Lux Orbis - JK's Skyrim patch.esp",
+	"Lux Orbis - JK's COTN Morthal patch.esp": ["COTN Morthal - JK's Skyrim Patch.esp", "Lux Orbis - COTN Morthal patch.esp"],
+	"Lux Orbis - JK's COTN Dawnstar patch.esp": ["COTN Dawnstar - JK's Skyrim Patch.esp", "Lux Orbis - COTN Dawnstar patch.esp"]
+  },
+
+  "bottomMods_comment": "Plugins that should be moved to the bottom should be placed here in the required order.",
+  "bottomMods": [],
+
+
+  "Generic ordering": "Adapt below here to adapt default plugin ordering. Earlier matches get higher priority.",
+
+  "increasingPriority_comment": "Regexps/strings that generally increase priority for a plugins installed by a mod.",
+  "increasingPriority": ["(:?hot|bug)[ ._-]?fix", "fix", "patch", "add[ ._-]?on", "expansion", "expanded",
+                         "extension", "ext", "remastered"],
+
+
+  "Game specific": "Only adapt below here if your game is not Skyrim SE - Fallout4 has a different masterlist",
+
+  "masters_comment": "Plugins placed in front, with lowest priority. Non-Skyrim requires a different list.",
+  "masters": ["Skyrim.esm", "Update.esm", "Dawnguard.esm", "HearthFires.esm", "Dragonborn.esm"]
+}
